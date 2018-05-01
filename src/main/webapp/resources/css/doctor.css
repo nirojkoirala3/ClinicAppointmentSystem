@@ -1,0 +1,22 @@
+#doctorForm{
+	width:600px;
+    border:2px solid #b6c3d4;
+    border-radius: 10px;
+    margin:auto;
+    padding:20px;
+}
+#doctorImage{
+	border-radius: 50%;
+	height:150px;
+	width:150px;
+	
+}
+#container h3{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#detailForm{
+	border: border:2px solid #b6c3d4;
+	width:400px;
+}

@@ -1,0 +1,32 @@
+#account-info, #address-info {
+	float: left;
+}
+
+#account-info {
+	margin-right: 100px;
+}
+
+#account-info .field-label {
+	width: 160px;
+}
+
+#address-info .field-label {
+	width: 160px;
+}
+
+#button-panel {
+	clear: both;
+}
+
+#appointment-info textarea {
+	width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+	width: 160px;
+}
+
+.error {
+	display: inline-block;
+	vertical-align: middle;
+}

@@ -1,0 +1,8 @@
+#prescription-modal>.modal-content {
+	max-width: 480px;
+}
+
+#prescription-modal input[type="text"], #prescription-modal textarea {
+	width: 100%;
+	box-sizing: border-box;
+}

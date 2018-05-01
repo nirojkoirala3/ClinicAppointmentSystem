@@ -1,0 +1,11 @@
+#container legend{
+	text-align:center;
+	font-size: medium;
+}
+#prescriptionForm{
+	width:600px;
+    border:2px solid #b6c3d4;
+    border-radius: 10px;
+    margin:auto;
+    padding:20px;
+}

@@ -1,0 +1,8 @@
+#doctor-modal>.modal-content {
+	max-width: 480px;
+}
+
+#doctor-modal input[type="text"], #doctor-modal input[type="password"], #doctor-modal select {
+	width: 100%;
+	box-sizing: border-box;
+}

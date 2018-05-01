@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana;
+}
+
+#header, #main, #footer {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#header {
+
+	height: 50px;
+
+	background-color: #5bc0de;
+
+	border-bottom: 1px solid lightgray;
+	overflow: hidden;
+	box-sizing: border-box;
+	
+}
+
+#root-link {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-right: 50px;
+}
+
+.menu-link {
+	margin-right: 25px;
+}
+
+.tools, .page-tools {
+	float: right;
+}
+
+.page-tools {
+	margin-top: 20px;
+}
+
+.go-back {
+	padding: 5px;
+	border: 1px solid gray;
+}
+
+#header a {
+	line-height: 70px;
+	color: #1d2428;
+	font-style: italic;
+}
+
+#main {
+	min-height: calc(100vh - 200px);
+	/*https://stackoverflow.com/questions/20689575/css-margin-top-of-h1-affects-parents-margin*/
+	overflow: hidden;
+	background-color: #9edaf8;
+	background-image: url("../images/clicnic5.jpg");
+	background-position: 100%;
+	
+}
+
+#footer {
+	border-top: 1px solid lightgray;
+
+	/* background-color: whitesmoke; */
+
+	background-color: #5bc0de;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	min-height: 150px;
+	box-sizing: border-box;
+	position:relative;
+	bottom:0px;
+	width:100%;
+}
+
+#footer ul {
+	padding-left: 0;
+}
+
+#footer li {
+	display: inline-block;
+	padding: 5px 15px 5px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a, a:visited {
+	color: #2980b9;
+}
+
+/*No space in "a:not(#root-link):hover" or else it doesn't work.*/
+a:not(#root-link):hover {
+	text-decoration: underline;
+}
+
+a.edit, a.delete, a#logout {
+	cursor: pointer;
+}
+
+#errors, .error {
+	color: red;
+}
+
+.hidden {
+	display: none;
+}
+
+form .field-label {
+	display: inline-block;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 0px solid gray;
+	padding: 5px;
+}
+
+th {
+	text-align: left;
+}

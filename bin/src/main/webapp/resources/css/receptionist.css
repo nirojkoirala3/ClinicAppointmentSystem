@@ -1,0 +1,8 @@
+#receptionist-modal>.modal-content {
+	max-width: 480px;
+}
+
+#receptionist-modal input[type="text"], #receptionist-modal input[type="password"] {
+	width: 100%;
+	box-sizing: border-box;
+}

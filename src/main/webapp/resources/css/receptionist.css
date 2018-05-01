@@ -1,0 +1,43 @@
+
+
+.form-area{
+	padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.btn{
+	margin: 24px 10px 15px 0;
+}
+body{
+	height: 100%;
+}
+
+.errorClass{
+	font-size: 15px;
+	color: red;
+	font-style: italic;
+}
+
+#receptionistImage{
+	border-radius:50%;
+	height:150px;
+	width:150px;
+}
+
+.col-md-3, .col-lg-3{
+	margin:10px;
+}
+
+.table{
+	border: 5px solid #ccc;
+	border-radius:5px;
+	padding: 10px;
+	margin:20px;
+	
+}
+
+.table td{
+	
+}

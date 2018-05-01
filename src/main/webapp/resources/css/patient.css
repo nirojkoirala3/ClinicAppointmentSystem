@@ -1,0 +1,53 @@
+#account-info, #address-info {
+	float: left;
+}
+
+#account-info, #address-info {
+	margin-right: 50px;
+}
+
+#photo{
+	display: inline;
+}
+#PassportSizePhoto{
+	margin-right: 50px;
+	float: left;
+	border: 0px solid blue;
+}
+
+#account-info .field-label {
+	width: 160px;
+}
+
+#PassportSizePhoto .field-label {
+	width: 100px;
+}
+
+#address-info .field-label {
+	width: 160px;
+}
+
+#button-panel {
+	clear: both;
+}
+
+#appointment-info textarea {
+	width: 100%;
+}
+
+input[type="text"], input[type="password"] {
+	width: 160px;
+}
+
+.error {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.imgRounded{
+	border-radius: 150px;
+}
+
+hr{
+	border: 1px solid #fcc9f5;
+}
